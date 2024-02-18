@@ -1,14 +1,14 @@
 import React from 'react'
-import SearchIcon from '@/../public/Images/search-icon.png'
+
 import Image from 'next/image'
 const Input = ({ placeholder, icon, iconAlt, type }) => {
   return (
-    <div className='flex items-center bg-backgroundColor rounded-lg p-1  '>
-      <Image className='m-1' src={icon} width={13} height={13} alt={iconAlt} />
+    <div className='flex items-center bg-secondary-grey rounded-lg p-1 w-56  '>
+      <Image className='m-1' src={icon} alt={iconAlt} />
       <input
         type={type}
         placeholder={placeholder}
-        className='placeholder-black bg-backgroundColor text-xs flex-1 focus:outline-none font-semibold '
+        className='placeholder-black bg-secondary-grey  text-xs flex-1 focus:outline-none font-poppins font-medium '
       />
     </div>
   )

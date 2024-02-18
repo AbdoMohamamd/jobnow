@@ -8,7 +8,7 @@ import Logout from '@/../public/images/logout.svg'
 
 const NavBar = () => {
   return (
-    <nav className='flex  w-full h-24  '>
+    <nav className='flex  w-full h-36 '>
       <div className='flex w-6/10 bg-secondary-grey  box-border pl-24  items-center xl:gap-16 lg:gap-7 '>
         <Link href={'/'}>
           <Image src={Logo} />
@@ -17,7 +17,7 @@ const NavBar = () => {
         <div className='flex  h-full items-stretch '>
           <Link
             href='/pages'
-            className='font-bold font-poppins flex items-center hover:bg-primary-grey px-4 xl:px-6 transition-colors ease-in-out duration-300'
+            className=' font-poppins font-bold flex items-center hover:bg-primary-grey px-4 xl:px-6 transition-colors ease-in-out duration-300'
           >
             Home
           </Link>

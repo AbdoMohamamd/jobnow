@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import Location from '@/../public/Images/location-icon.svg'
 import Image from 'next/image'
-import DownArrow from '@/../public/Images/down-arrow.png'
-import UpArrow from '@/../public/Images/up-arrow.png'
+import DownArrow from '@/../public/Images/down-arrow.svg'
+import UpArrow from '@/../public/Images/up-arrow.svg'
 const DropDown = ({ placeholder, options }) => {
   const [selectedOption, setSelectedOption] = useState(placeholder)
   const [isOpen, setIsOpen] = useState(false)
@@ -14,37 +14,29 @@ const DropDown = ({ placeholder, options }) => {
 
   return (
     <div
-      className='flex items-center justify-start bg-secondary-grey  rounded-lg w-44 relative '
+      className='flex items-center justify-start bg-secondary-grey w-24  rounded-md md:rounded-2xl md:w-32 lg:w-40 xl:w-56 relative box-border '
       onClick={() => {
         setIsOpen(!isOpen)
       }}
     >
-      <Image className='m-1' src={Location} alt='location' />
+      <Image
+        className='m-1  w-2 h-2 md:w-4 md:h-4'
+        src={Location}
+        alt='location'
+      />
 
-      <p className='placeholder-black bg-secondary-grey text-xs  font-poppins font-medium'>
+      <p className='placeholder-black bg-secondary-grey text-7  md:text-sm  font-poppins font-medium'>
         {selectedOption}
       </p>
       {isOpen ? (
-        <Image
-          className='m-1'
-          src={UpArrow}
-          width={6}
-          height={6}
-          alt='arrow-up'
-        />
+        <Image className='m-1 w-1 h-1 md:w-2 md:h-2' src={UpArrow} />
       ) : (
-        <Image
-          className='m-1'
-          src={DownArrow}
-          width={9}
-          height={9}
-          alt='arrow-down'
-        />
+        <Image className='m-1 w-1 h-1 md:w-2 md:h-2' src={DownArrow} />
       )}
       <div
         className={`${
           isOpen ? 'absolute' : 'hidden'
-        } top-full w-44 text-xs bg-secondary-grey rounded-lg overflow-y-auto h-24 `}
+        } top-full w-24 md:w-32 lg:w-40 xl:w-56 text-7 md:text-sm bg-secondary-grey rounded-lg overflow-y-auto h-24 `}
       >
         {' '}
         {options.map((option, index) => (

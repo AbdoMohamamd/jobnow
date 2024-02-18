@@ -31,11 +31,14 @@ module.exports = {
         '4/10': '40%'
       },
       fontSize: {
-        header: '3.25rem'
+        header: '3.25rem',
+        8: '0.5rem',
+        7:'0.4375rem'
       },
       borderRadius: {
         '5xl': '4rem'
-      }
+      },
+   
     }
   },
   plugins: []

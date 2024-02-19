@@ -35,7 +35,7 @@ const HeroSection = () => {
             type={'text'}
           />
           <DropDown options={locations} placeholder={'Location'} />
-          <button className='bg-primary-color text-7  text-white w-max px-1 py-1 font-bold font-poppins rounded-md md:rounded-2xl  md:px-6 md:py-4 lg:px-4 xl:px-4 md:text-sm'>
+          <button className='bg-primary-color text-7  text-white w-max px-1 py-1 font-bold font-poppins rounded-md md:rounded-xl  md:px-6 md:py-4 lg:px-4 xl:px-4 md:text-sm'>
             Search
           </button>
         </div>

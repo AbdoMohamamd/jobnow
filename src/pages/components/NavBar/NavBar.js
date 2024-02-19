@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Logo from '@/../public/Images/logo.svg'
 import Image from 'next/image'
 import BurgerMenu from '@/../public/Images/burger-menu.svg'
-import Logout from '@/../public/images/logout.svg'
+import Logout from '@/../public/Images/logout.svg'
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false)

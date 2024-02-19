@@ -1,6 +1,6 @@
 import React from 'react'
-
 import Image from 'next/image'
+
 const Input = ({ placeholder, icon, iconAlt, type }) => {
   return (
     <div className='flex items-center p-1  bg-secondary-grey rounded-md md:rounded-2xl md:p-3 md:w-44 xl:w-64  '>

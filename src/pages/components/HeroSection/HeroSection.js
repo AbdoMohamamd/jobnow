@@ -10,11 +10,11 @@ const HeroSection = () => {
   const locations = [
     'location1',
     'location2',
-    'location3',
-    'location3',
-    'location3',
-    'location3',
-    'location3'
+    'location4',
+    'location5',
+    'location6',
+    'location7',
+    'location8',
   ]
   return (
     <div className='block  bg-primary-grey  md:flex    md:w-full  md:bg-secondary-grey '>
@@ -34,7 +34,7 @@ const HeroSection = () => {
             iconAlt={'SearchIcon'}
             type={'text'}
           />
-          <DropDown options={locations} placeholder={'Location'} />
+          <DropDown  options={locations} placeholder={'Location'} />
           <button className='bg-primary-color text-7  text-white w-max px-2 py-1 font-bold font-poppins rounded-md md:rounded-2xl  md:px-6 md:py-4 lg:px-6 xl:px-8 md:text-sm'>
             Search
           </button>

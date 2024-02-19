@@ -3,10 +3,19 @@ import Location from '@/../public/Images/location-icon.svg'
 import Image from 'next/image'
 import DownArrow from '@/../public/Images/down-arrow.svg'
 import UpArrow from '@/../public/Images/up-arrow.svg'
-const DropDown = ({ placeholder, options }) => {
+
+const DropDown = ({ placeholder}) => {
   const [selectedOption, setSelectedOption] = useState(placeholder)
   const [isOpen, setIsOpen] = useState(false)
-
+  const options = [
+    'location1',
+    'location2',
+    'location4',
+    'location5',
+    'location6',
+    'location7',
+    'location8',
+  ]
   const handleOptionClick = option => {
     setSelectedOption(option)
     setIsOpen(false)
@@ -39,9 +48,9 @@ const DropDown = ({ placeholder, options }) => {
         } top-full w-24 md:w-32 lg:w-40 xl:w-56 text-7 md:text-sm bg-secondary-grey rounded-lg overflow-y-auto h-24 `}
       >
         {' '}
-        {options.map((option, index) => (
+        { options.map((option) => (
           <div
-            key={index}
+            key={option}
             onClick={() => handleOptionClick(option)}
             className='hover:bg-gray-200 hover:cursor-pointer rounded-lg p-2 '
           >

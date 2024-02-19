@@ -22,7 +22,7 @@ const HeroSection = () => {
         <h1 className='text-xl  md:text-header leading-none md:lineHeight-header font-bold md:mt-20 mb-8   font-poppins'>
           Search, Find, & Apply
         </h1>
-        <p className='text-8 text-center  md:text-justify font-poppins font-normal md:text-xl bg-red-200 md:container w-60'>
+        <p className='text-8 text-center  md:text-justify font-poppins font-normal md:text-xl  md:container w-60'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation.

@@ -43,25 +43,25 @@ const NavBar = () => {
           </button>
           <Link
             href='/'
-            className='h-10 text-center  text-xl font-poppins font-bold  hover:border-b-4 box-border  hover:border-primary-color   px-4 md:py-0 md:px-0  md:mx-4 md:h-5 transition-colors ease-in-out duration-300 md:text-xs lg:text-sm xl:text-base xl:mx-6 xl:h-6 '
+            className='h-10 text-center  text-xl font-poppins font-bold transition-all hover:border-b-4 box-border  hover:border-primary-color   px-4 md:py-0 md:px-0  md:mx-4 md:h-5 transition-colors ease-in-out duration-300 md:text-xs lg:text-sm xl:text-base xl:mx-6 xl:h-6 '
           >
             Home
           </Link>
           <Link
             href='/'
-            className='h-10  text-center   text-xl font-poppins font-bold  hover:border-b-4 box-border  hover:border-primary-color   px-4 md:py-0 md:px-0  md:mx-4 md:h-5 transition-colors ease-in-out duration-300 md:text-xs lg:text-sm xl:text-base xl:mx-6 xl:h-6 '
+            className='h-10  text-center   text-xl font-poppins font-bold  hover:border-b-4 box-border  hover:border-primary-color   px-4 md:py-0 md:px-0  md:mx-4 md:h-5 transition-all ease-in-out duration-300 md:text-xs lg:text-sm xl:text-base xl:mx-6 xl:h-6 '
           >
             Job
           </Link>
           <Link
             href='/'
-            className='h-10 text-center  text-xl font-poppins font-bold  hover:border-b-4  hover:border-primary-color   px-4 md:py-0 md:px-0  md:mx-4 md:h-5 transition-colors ease-in-out duration-300 md:text-xs lg:text-sm xl:text-base xl:mx-6 xl:h-6'
+            className='h-10 text-center  text-xl font-poppins font-bold  hover:border-b-4 transition-all hover:border-primary-color   px-4 md:py-0 md:px-0  md:mx-4 md:h-5 transition-colors ease-in-out duration-300 md:text-xs lg:text-sm xl:text-base xl:mx-6 xl:h-6'
           >
             <p className=''>AboutUs</p>
           </Link>
           <Link
             href='/'
-            className='h-10 text-center   block  text-xl font-poppins font-bold  hover:border-b-4 box-border  hover:border-primary-color   px-4 md:py-0 md:px-0  md:mx-4 md:h-5 transition-colors ease-in-out duration-300 md:text-xs lg:text-sm xl:text-base xl:mx-6 xl:h-6'
+            className='h-10 text-center   block  text-xl font-poppins font-bold transition-all  hover:border-b-4 box-border  hover:border-primary-color   px-4 md:py-0 md:px-0  md:mx-4 md:h-5 transition-colors ease-in-out duration-300 md:text-xs lg:text-sm xl:text-base xl:mx-6 xl:h-6'
           >
             <div className='mt-auto'> Contact</div>
           </Link>

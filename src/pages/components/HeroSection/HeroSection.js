@@ -17,9 +17,9 @@ const HeroSection = () => {
     'location8'
   ]
   return (
-    <div className='block  bg-primary-grey  md:flex    w-full  md:bg-secondary-grey md:container '>
+    <div className='block  bg-primary-grey  md:flex    w-full  md:bg-secondary-grey md:container  '>
       <div className='pt-10 bg-primary-grey flex flex-col items-center md:block md:bg-secondary-grey md:text-start md:w-6/10    md:box-border '>
-        <h1 className='text-xl  md:text-header leading-none md:lineHeight-header font-bold md:mt-20 mb-8   font-poppins'>
+        <h1 className='text-xl  md:text-header leading-none  font-bold md:mt-20 mb-8   font-poppins'>
           Search, Find, & Apply
         </h1>
         <p className='text-8 text-center  md:text-justify font-poppins font-normal md:text-xl   w-60 md:w-9/12 xl:w-8/12 '>
@@ -40,7 +40,7 @@ const HeroSection = () => {
           </button>
         </div>
       </div>
-      <div className='bg-primary-color md:w-4/10 box-border text-start md:rounded-bl-5xl'>
+      <div className='h-72 md:h-auto bg-primary-color md:w-4/10 box-border text-start md:rounded-bl-5xl'>
         {/* <ul>
           <li className='flex justify-start w-full pt-7 px-14 '>
             {' '}
@@ -63,7 +63,7 @@ const HeroSection = () => {
                 {' '}
                 <Image src={Search} className='w-12 h-12 md:w-20 md:h-20' />
               </li>
-              <li className='flex items-end justify-end md:justify-end w-full pb-7 md:pt-8 pr-14 '>
+              <li className='flex items-end justify-end md:justify-end w-full pb-7 md:pt-8 pr-14 md:pr-0 '>
                 {' '}
                 <Image src={StatsIcon} className='w-12 h-12 md:w-20 md:h-20' />
               </li>

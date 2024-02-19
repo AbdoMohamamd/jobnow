@@ -17,7 +17,8 @@ module.exports = {
       colors: {
         'primary-grey': '#FBFBFB',
         'secondary-grey': '#F2F2F2',
-        'primary-color': '#00CC99'
+        'primary-color': '#00CC99',
+        'primary-text-color': '#8A8A8A'
       },
       fontFamily: {
         poppins: ['var(--font-poppins)']
@@ -28,19 +29,29 @@ module.exports = {
       },
       width: {
         '6/10': '60%',
-        '4/10': '40%'
+        '4/10': '40%',
+        '43':'2.6875rem'
+      },height:{
+        '43':'2.6875rem'
       },
+      
       fontSize: {
         header: '3.25rem',
         8: '0.5rem',
-        7:'0.4375rem'
+        7: '0.4375rem',
+        38: '2.375rem',
+        5: '0.3125rem',
+        10:'0.625rem'
       },
       borderRadius: {
         '5xl': '4rem'
-      }, gradientColorStopPositions: {
-        50: '50%',
+      },
+      gradientColorStopPositions: {
+        50: '50%'
+      },
+      padding: {
+        150: '9.375rem'
       }
-   
     }
   },
   plugins: []

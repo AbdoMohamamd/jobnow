@@ -8,7 +8,15 @@ const poppins = localFont({
       path: '../../public/fonts/Poppins-Regular.ttf',
       weight: '400'
     },
-    { path: '../../public/fonts/Poppins-Medium.ttf', weight: '500' },
+
+    {
+      path: '../../public/fonts/Poppins-Medium.ttf',
+      weight: '500'
+    },
+    {
+      path: '../../public/fonts/Poppins-SemiBold.ttf',
+      weight: '600'
+    },
 
     {
       path: '../../public/fonts/Poppins-Bold.ttf',

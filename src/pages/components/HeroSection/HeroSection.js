@@ -63,7 +63,7 @@ const HeroSection = () => {
                 {' '}
                 <Image src={Search} className='w-12 h-12 md:w-20 md:h-20' />
               </li>
-              <li className='flex items-end justify-end md:justify-end w-full pb-7 pr-14 '>
+              <li className='flex items-end justify-end md:justify-end w-full pb-7 md:pt-8 pr-14 '>
                 {' '}
                 <Image src={StatsIcon} className='w-12 h-12 md:w-20 md:h-20' />
               </li>
@@ -71,7 +71,7 @@ const HeroSection = () => {
           </div>
           <div>
             <ul>
-              <li className='flex justify-start w-full  pt-7 pb-20 px-14'>
+              <li className='flex justify-start w-full pt-4  md:pt-20 pb-20 px-14'>
                 <Image
                   src={PrivacyIcon}
                   className='w-12 h-12 md:w-20 md:h-20'

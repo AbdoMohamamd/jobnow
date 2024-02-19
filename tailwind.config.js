@@ -37,7 +37,9 @@ module.exports = {
       },
       borderRadius: {
         '5xl': '4rem'
-      },
+      }, gradientColorStopPositions: {
+        50: '50%',
+      }
    
     }
   },

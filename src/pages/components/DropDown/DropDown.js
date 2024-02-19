@@ -4,7 +4,7 @@ import Image from 'next/image'
 import DownArrow from '@/../public/Images/down-arrow.svg'
 import UpArrow from '@/../public/Images/up-arrow.svg'
 
-const DropDown = ({options,placeholder}) => {
+const DropDown = ({ options, placeholder }) => {
   const [selectedOption, setSelectedOption] = useState(placeholder)
   const [isOpen, setIsOpen] = useState(false)
   // const options = [
@@ -23,13 +23,13 @@ const DropDown = ({options,placeholder}) => {
 
   return (
     <div
-      className='flex items-center justify-start bg-secondary-grey w-24  rounded-md md:rounded-2xl md:w-32 lg:w-40 xl:w-56 relative  box-border '
+      className='flex items-center justify-start bg-secondary-grey w-24  rounded-md md:rounded-2xl  relative  box-border md:w-4/12  '
       onClick={() => {
         setIsOpen(!isOpen)
       }}
     >
       <Image
-        className='m-1  w-2 h-2 md:w-4 md:h-4'
+        className='m-1  w-2 h-2 md:w-5 md:h-5'
         src={Location}
         alt='location'
       />
@@ -45,14 +45,14 @@ const DropDown = ({options,placeholder}) => {
       <div
         className={`${
           isOpen ? 'absolute' : 'hidden'
-        } top-full w-24 md:w-32 lg:w-40 xl:w-56 text-7 md:text-sm bg-secondary-grey rounded-lg overflow-y-auto h-24 `}
+        } top-full w-24   text-7 md:text-sm bg-secondary-grey rounded-lg overflow-y-auto h-24 md:w-full`}
       >
         {' '}
-        { options?.map((option) => (
+        {options?.map(option => (
           <div
             key={option}
             onClick={() => handleOptionClick(option)}
-            className='hover:bg-gray-200 hover:cursor-pointer rounded-lg p-2 '
+            className='hover:bg-gray-200 hover:cursor-pointer rounded-lg p-2  '
           >
             <p>{option}</p>
           </div>

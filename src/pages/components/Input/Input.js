@@ -3,8 +3,8 @@ import Image from 'next/image'
 
 const Input = ({ placeholder, icon, iconAlt, type }) => {
   return (
-    <div className='flex items-center p-1  bg-secondary-grey rounded-md md:rounded-2xl md:p-3 md:w-44 xl:w-64  '>
-      <Image className='mr-1 md:mr-3 w-2 h-2 md:w-4 md:h-4' src={icon} alt={iconAlt} />
+    <div className='flex items-center p-1  bg-secondary-grey rounded-md md:rounded-2xl  md:w-5/12  '>
+      <Image className='m-1 w-2 h-2 md:w-5 md:h-5' src={icon} alt={iconAlt} />
       <input
         type={type}
         placeholder={placeholder}

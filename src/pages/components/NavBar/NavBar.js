@@ -3,17 +3,13 @@ import Link from 'next/link'
 import Logo from '@/../public/Images/logo.svg'
 import Image from 'next/image'
 import BurgerMenu from '@/../public/Images/burger-menu.svg'
-import Logout from '@/../public/Images/logout.svg'
+import Logout from '@/../public/images/logout.svg'
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false)
   return (
-    <nav
-      className={`${
-        isOpen ? 'fixed top-0 left-0 right-0 z-20' : 'static'
-      } h-20 md:h-36  md:flex  md:w-full md:static `}
-    >
-      <div className='flex h-full bg-secondary-grey  items-center justify-center  md:justify-normal md:w-6/10  md:box-border md:pl-24 lg:gap-12 xl:gap-16'>
+    <nav className='w-full h-20 md:h-36  md:flex  md:container '>
+      <div className='flex h-full bg-secondary-grey  items-center justify-center  md:justify-start  md:w-6/10  md:box-border  lg:gap-12 xl:gap-16'>
         <Link href={'/'} className=''>
           <Image src={Logo} className='w-28 md:h-28 lg:w-max lg:h-max ' />
         </Link>
@@ -32,7 +28,7 @@ const NavBar = () => {
         <div
           className={`${
             isOpen ? 'fixed' : 'hidden'
-          }  bg-secondary-grey mt-20 h-full top-0 left-0 right-0 bottom-0 z-20   md:mt-0 md:flex md:static md:items-stretch md:h-full`}
+          }  flex flex-col gap-y-5 md:flex md:flex-row bg-secondary-grey mt-20  top-0 left-0 right-0 bottom-0 z-20   md:mt-0  md:static    `}
         >
           {' '}
           <button
@@ -47,27 +43,27 @@ const NavBar = () => {
           </button>
           <Link
             href='/'
-            className='flex py-4 items-center justify-center text-xl font-poppins font-bold   hover:bg-primary-grey px-4 md:py-0 transition-colors ease-in-out duration-300 md:text-xs lg:text-sm xl:text-base xl:px-6   '
+            className='h-10 text-center  text-xl font-poppins font-bold  hover:border-b-4 box-border  hover:border-primary-color   px-4 md:py-0 md:px-0  md:mx-4 md:h-5 transition-colors ease-in-out duration-300 md:text-xs lg:text-sm xl:text-base xl:mx-6 xl:h-6 '
           >
             Home
           </Link>
           <Link
             href='/'
-            className='flex py-4  items-center justify-center text-xl font-poppins font-bold   hover:bg-primary-grey px-4 md:py-0 transition-colors ease-in-out duration-300 md:text-xs lg:text-sm xl:text-base xl:px-6 '
+            className='h-10  text-center   text-xl font-poppins font-bold  hover:border-b-4 box-border  hover:border-primary-color   px-4 md:py-0 md:px-0  md:mx-4 md:h-5 transition-colors ease-in-out duration-300 md:text-xs lg:text-sm xl:text-base xl:mx-6 xl:h-6 '
           >
             Job
           </Link>
           <Link
             href='/'
-            className='flex py-4  items-center justify-center text-xl font-poppins font-bold   hover:bg-primary-grey px-4 md:py-0 transition-colors ease-in-out duration-300 md:text-xs lg:text-sm xl:text-base xl:px-6 '
+            className='h-10 text-center  text-xl font-poppins font-bold  hover:border-b-4  hover:border-primary-color   px-4 md:py-0 md:px-0  md:mx-4 md:h-5 transition-colors ease-in-out duration-300 md:text-xs lg:text-sm xl:text-base xl:mx-6 xl:h-6'
           >
-            AboutUs
+            <p className=''>AboutUs</p>
           </Link>
           <Link
             href='/'
-            className='flex py-4  items-center justify-center text-xl font-poppins font-bold   hover:bg-primary-grey px-4 md:py-0 transition-colors ease-in-out duration-300 md:text-xs lg:text-sm xl:text-base xl:px-6 '
+            className='h-10 text-center   block  text-xl font-poppins font-bold  hover:border-b-4 box-border  hover:border-primary-color   px-4 md:py-0 md:px-0  md:mx-4 md:h-5 transition-colors ease-in-out duration-300 md:text-xs lg:text-sm xl:text-base xl:mx-6 xl:h-6'
           >
-            Contact
+            <div className='mt-auto'> Contact</div>
           </Link>
         </div>
       </div>

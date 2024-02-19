@@ -14,7 +14,7 @@ const DropDown = ({ placeholder, options }) => {
 
   return (
     <div
-      className='flex items-center justify-start bg-secondary-grey w-24  rounded-md md:rounded-2xl md:w-32 lg:w-40 xl:w-56 relative box-border '
+      className='flex items-center justify-start bg-secondary-grey w-24  rounded-md md:rounded-2xl md:w-32 lg:w-40 xl:w-56 relative  box-border '
       onClick={() => {
         setIsOpen(!isOpen)
       }}

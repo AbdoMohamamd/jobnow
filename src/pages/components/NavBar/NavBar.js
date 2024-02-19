@@ -8,7 +8,11 @@ import Logout from '@/../public/images/logout.svg'
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false)
   return (
-    <nav className='h-20 md:h-36  md:flex  md:w-full '>
+    <nav
+      className={`${
+        isOpen ? 'fixed top-0 left-0 right-0 z-20' : 'static'
+      } h-20 md:h-36  md:flex  md:w-full md:static `}
+    >
       <div className='flex h-full bg-secondary-grey  items-center justify-center  md:justify-normal md:w-6/10  md:box-border md:pl-24 lg:gap-12 xl:gap-16'>
         <Link href={'/'} className=''>
           <Image src={Logo} className='w-28 md:h-28 lg:w-max lg:h-max ' />

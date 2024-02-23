@@ -18,7 +18,7 @@ export default function Home () {
       <section className='px-7 pt-14 pb-14 md:px-20  flex justify-center md:pt-150 md:pb-150  bg-primary-grey'>
         <ExplanationSection />
       </section>
-      <section className='pl-7 pb-7 pt-8 bg-primary-color md:pl-20  flex flex-col items-center   md:pt-28 md:pb-24 bg-opacity-5 '>
+      <section className='pl-7 pb-7 pt-8 bg-primary-color md:px-20  flex flex-col items-center   md:pt-28 md:pb-24 bg-opacity-5 '>
         <PopularJobSection />
       </section>
     </main>

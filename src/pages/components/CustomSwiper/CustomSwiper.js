@@ -8,15 +8,47 @@ import 'swiper/css/free-mode'
 import 'swiper/css/pagination'
 
 // import required modules
-import { FreeMode, Pagination } from 'swiper/modules'
+import { FreeMode } from 'swiper/modules'
 
 const CustomSwiper = ({ cards }) => {
   return (
     <Swiper
-      slidesPerView={'auto'}
-      spaceBetween={0}
+      breakpoints={{
+        1: {
+          width: 200,
+          slidesPerView: 2,
+          spaceBetween: 50
+        },
+        300: {
+          width: 300,
+          slidesPerView: 3,
+          spaceBetween: 70
+        },
+        400: {
+          width: 400,
+          slidesPerView: 4,
+          spaceBetween: 80
+        },
+        510: {
+          width: 510,
+          slidesPerView: 4,
+          spaceBetween: 90
+        },
+        650: {
+          width: 650,
+          slidesPerView: 4,
+          spaceBetween: 1
+        },
+        768: {
+          width: 650,
+          slidesPerView: 2,
+          spaceBetween: 10
+        },
+        1000: { width: 1400, slidesPerView: 4, spaceBetween: 30 }
+        // when window width is >= 768px
+      }}
       freeMode={true}
-      modules={[FreeMode, Pagination]}
+      modules={[FreeMode]}
       className='hover:cursor-pointer   '
     >
       {cards?.map((card, index) => (

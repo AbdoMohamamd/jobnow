@@ -20,15 +20,41 @@ const CustomSwiper = ({ cards }) => {
         300: {
           slidesPerView: 2
         },
+        320: {
+          slidesPerView: 2.2
+        },
+        350: {
+          slidesPerView: 2.3
+        },
+        370: {
+          slidesPerView: 2.5
+        },
+        400: {
+          slidesPerView: 2.8
+        },
         430: {
           slidesPerView: 3
         },
+        450: {
+          slidesPerView: 3.2
+        },
+        480: {
+          slidesPerView: 3.5
+        },
         530: {
+          slidesPerView: 3.9
+        },
+        570: {
           slidesPerView: 4
         },
-
+        600: {
+          slidesPerView: 4.3
+        },
         630: {
-          slidesPerView: 5
+          slidesPerView: 4.5
+        },
+        670: {
+          slidesPerView: 4.8
         },
         768: {
           slidesPerView: 2
@@ -40,10 +66,10 @@ const CustomSwiper = ({ cards }) => {
           slidesPerView: 2.5
         },
         1100: {
-          slidesPerView: 3
+          slidesPerView: 2.8
         },
         1190: {
-          slidesPerView: 3.3
+          slidesPerView: 3
         },
         1278: {
           slidesPerView: 3.4
@@ -53,11 +79,12 @@ const CustomSwiper = ({ cards }) => {
         },
         1440: {
           slidesPerView: 4
-        }
-        ,1500:{
-          slidesPerView:4.3
+        },
+        1500: {
+          slidesPerView: 4.3
         }
       }}
+      spaceBetween={20}
       freeMode={true}
       modules={[FreeMode]}
       className='hover:cursor-pointer   '

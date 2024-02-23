@@ -55,13 +55,13 @@ const NavBar = () => {
           </Link>
           <Link
             href='/'
-            className='h-10 text-center  text-xl font-poppins font-bold  hover:border-b-4 transition-all hover:border-primary-color   px-4 md:py-0 md:px-0  md:mx-4 md:h-5 transition-colors ease-in-out duration-300 md:text-xs lg:text-sm xl:text-base xl:mx-6 xl:h-6'
+            className='h-10 text-center  text-xl font-poppins font-bold  hover:border-b-4 transition-all hover:border-primary-color   px-4 md:py-0 md:px-0  md:mx-4 md:h-5  ease-in-out duration-300 md:text-xs lg:text-sm xl:text-base xl:mx-6 xl:h-6'
           >
             <p className=''>AboutUs</p>
           </Link>
           <Link
             href='/'
-            className='h-10 text-center   block  text-xl font-poppins font-bold transition-all  hover:border-b-4 box-border  hover:border-primary-color   px-4 md:py-0 md:px-0  md:mx-4 md:h-5 transition-colors ease-in-out duration-300 md:text-xs lg:text-sm xl:text-base xl:mx-6 xl:h-6'
+            className='h-10 text-center   block  text-xl font-poppins font-bold transition-all  hover:border-b-4 box-border  hover:border-primary-color   px-4 md:py-0 md:px-0  md:mx-4 md:h-5 ease-in-out duration-300 md:text-xs lg:text-sm xl:text-base xl:mx-6 xl:h-6'
           >
             <div className='mt-auto'> Contact</div>
           </Link>
@@ -82,7 +82,7 @@ const NavBar = () => {
           </button>
         </div>
 
-        <button className=' w-max px-5 py-2 flex gap-2 items-center bg-secondary-grey rounded-lg font-bold hover:bg-gray-300 transition-colors ease-in-out duration-300 md:text-xs lg:text-sm xl:text-base md:mr-4'>
+        <button className=' w-max px-5 py-2 flex gap-2 items-center bg-secondary-grey rounded-lg font-bold hover:bg-gray-300 transition-colors ease-in-out duration-300 md:text-xs lg:text-sm xl:text-base '>
           <Image src={Logout} /> Create Account
         </button>
       </div>

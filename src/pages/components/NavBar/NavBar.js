@@ -10,8 +10,15 @@ const NavBar = () => {
   return (
     <nav className='w-full h-20 md:h-36  md:flex  md:container  '>
       <div className='flex h-full bg-secondary-grey  items-center justify-center  md:justify-start  md:w-6/10  md:box-border  lg:gap-12 xl:gap-16'>
-        <Link href={'/'} className=''>
-          <Image src={Logo} className='w-28 md:h-28 lg:w-max lg:h-max ' />
+        <Link
+          href={'/'}
+          className={` md:static ${
+            isOpen
+              ? 'fixed top-0 right-0 left-0 p-7 flex justify-center items-center  bg-secondary-grey z-20'
+              : 'static '
+          } md:p-0  `}
+        >
+          <Image src={Logo} loading={'eager'} className='w-28 md:h-28 lg:w-max lg:h-max ' />
         </Link>
 
         <button

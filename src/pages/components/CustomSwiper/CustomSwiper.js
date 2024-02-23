@@ -14,38 +14,35 @@ const CustomSwiper = ({ cards }) => {
   return (
     <Swiper
       breakpoints={{
-        1: {
-          width: 200,
-          slidesPerView: 2,
-          spaceBetween: 50
+        200: {
+          width: 260,
+          slidesPerView: 2
         },
-        300: {
-          width: 300,
-          slidesPerView: 3,
-          spaceBetween: 70
+        360: {
+          width: 360,
+          slidesPerView: 3
         },
-        400: {
-          width: 400,
-          slidesPerView: 4,
-          spaceBetween: 80
-        },
+
         510: {
           width: 510,
-          slidesPerView: 4,
-          spaceBetween: 90
+          slidesPerView: 4
         },
         650: {
           width: 650,
-          slidesPerView: 4,
-          spaceBetween: 1
+          slidesPerView: 5
         },
         768: {
           width: 650,
-          slidesPerView: 2,
-          spaceBetween: 10
+          slidesPerView: 2
         },
-        1000: { width: 1400, slidesPerView: 4, spaceBetween: 30 }
-        // when window width is >= 768px
+        1000: {
+          width: 1000,
+          slidesPerView: 3
+        },
+        1200: {
+          width: 1400,
+          slidesPerView: 4
+        }
       }}
       freeMode={true}
       modules={[FreeMode]}

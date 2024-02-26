@@ -32,7 +32,8 @@ module.exports = {
         '6/10': '60%',
         '4/10': '40%',
         43: '2.6875rem',
-        504: '31.5rem'
+        504: '31.5rem',
+        300: '22rem'
       },
       height: {
         43: '2.6875rem',
@@ -40,8 +41,9 @@ module.exports = {
       },
       maxWidth: {
         504: '31.5rem'
-      },gap:{
-        83:'5.2rem'
+      },
+      gap: {
+        83: '5.2rem'
       },
 
       fontSize: {

@@ -4,6 +4,8 @@ import NavBar from './components/NavBar/NavBar'
 import HeroSection from './components/HeroSection/HeroSection'
 import ExplanationSection from './components/ExplanationSection/ExplanationSection'
 import PopularJobSection from './components/PopularJobSection/PopularJobSection'
+import RecentJobsSection from './components/RecentJobsSection/RecentJobsSection'
+import FeedbackSection from './components/FeedbackSection/FeedbackSection'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,6 +22,12 @@ export default function Home () {
       </section>
       <section className='px-7 pb-7 pt-8 bg-primary-color md:px-20   flex justify-center   md:pt-28 md:pb-24 bg-opacity-5 '>
         <PopularJobSection />
+      </section>
+      <section className='px-7 pb-7 pt-14 bg-primary-grey md:px-20   flex justify-center   md:pt-40 md:pb-24  '>
+        <RecentJobsSection />
+      </section>
+      <section className='px-7 pb-7 pt-7 bg-primary-grey md:px-20   flex justify-center   md:pt-40 md:pb-24  '>
+        <FeedbackSection />
       </section>
     </main>
   )

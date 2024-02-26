@@ -16,7 +16,7 @@ const FeedbackSection = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
-          <p className='text-8 w-52  mb-16 md:text-[22px]   font-poppins font-semibold  md:mb-14  md:w-10/12  '>
+          <p className='text-8 w-52  mb-[60px] md:text-[22px]   font-poppins font-semibold  md:mb-14  md:w-10/12  '>
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation."

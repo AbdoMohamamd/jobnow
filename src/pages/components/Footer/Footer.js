@@ -94,10 +94,22 @@ const Footer = () => {
           </h1>{' '}
           <div className='flex gap-x-5'>
             {' '}
-            <Image src={GoogleLogo} />
-            <Image src={FacebookLogo} />
-            <Image src={TwitterLogo} />
-            <Image src={LinkedInLogo} />
+            <Link href='/'>
+              {' '}
+              <Image src={GoogleLogo} />
+            </Link>
+            <Link href='/'>
+              {' '}
+              <Image src={FacebookLogo} />
+            </Link>
+            <Link href='/'>
+              {' '}
+              <Image src={TwitterLogo} />
+            </Link>
+            <Link href='/'>
+              {' '}
+              <Image src={LinkedInLogo} />
+            </Link>
           </div>
         </div>
       </div>
@@ -107,10 +119,22 @@ const Footer = () => {
         </h1>{' '}
         <div className='flex gap-x-3 md:gap-x-1 lg:gap-x-5'>
           {' '}
-          <Image src={GoogleLogo} className='w-3 h-3' />
-          <Image src={FacebookLogo} className='w-3 h-3' />
-          <Image src={TwitterLogo} className='w-3 h-3' />
-          <Image src={LinkedInLogo} className='w-3 h-3' />
+          <Link href='/'>
+            {' '}
+            <Image src={GoogleLogo} className='w-3 h-3' />
+          </Link>
+          <Link href='/'>
+            {' '}
+            <Image src={FacebookLogo} className='w-3 h-3' />
+          </Link>
+          <Link href='/'>
+            {' '}
+            <Image src={TwitterLogo} className='w-3 h-3' />
+          </Link>
+          <Link href='/'>
+            {' '}
+            <Image src={LinkedInLogo} className='w-3 h-3' />
+          </Link>
         </div>
       </div>
     </footer>

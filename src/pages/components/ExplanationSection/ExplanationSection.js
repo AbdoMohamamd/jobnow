@@ -60,8 +60,8 @@ const ExplanationSection = () => {
       </div>
       <div className='md:grid md:grid-cols-3 '>
         {' '}
-        <div className='mb-6  max-w-72 h-52 mx-auto rounded-lg md:h-370 md:w-11/12 bg-placeholder-grey md:rounded-xl  md:mx-0 md:col-span-1 md:mb-0'></div>
-        <div className='text-center md:text-start md:col-span-2   '>
+        <div className='mb-6  max-w-72 h-52 mx-auto rounded-lg md:h-370 md:max-w-full bg-placeholder-grey md:rounded-xl  md:mx-0 md:col-span-1 md:mb-0'></div>
+        <div className='text-center md:text-start md:col-span-2 md:ml-12   '>
           {' '}
           <h1 className='mb-3 font-bold font-poppins text-sm md:text-xl lg:text-3xl  md:mb-8 md:leading-tight '>
             We will help you to become an employee for your dream company

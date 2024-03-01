@@ -69,10 +69,10 @@ module.exports = {
       },
       container: {
         center: true,
-        padding:{
+        padding: {
           DEFAULT: '1.75rem',
-          md: '5rem',
-      }
+          md: '5rem'
+        }
       }
     }
   },

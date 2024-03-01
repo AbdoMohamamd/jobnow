@@ -63,10 +63,16 @@ const ExplanationSection = () => {
         <div className='mb-6  max-w-72 h-52 mx-auto rounded-lg md:h-370 md:max-w-full bg-placeholder-grey md:rounded-xl  md:mx-0 md:col-span-1 md:mb-0'></div>
         <div className='text-center md:text-start md:col-span-2 md:ml-12   '>
           {' '}
-          <h1 className='mb-3 font-bold font-poppins text-sm md:text-xl lg:text-3xl  md:mb-8 md:leading-tight '>
+          <h1
+            className='mb-3 mx-auto font-bold font-poppins text-sm md:text-xl lg:text-3xl  md:mb-8 md:leading-tight max-w-72 
+md:max-w-full '
+          >
             We will help you to become an employee for your dream company
           </h1>
-          <p className='text-8  mb-5 font-poppins font-normal text-primary-text-color  md:mb-9 md:text-sm lg:text-base '>
+          <p
+            className='mx-auto text-8  mb-5 font-poppins font-normal text-primary-text-color  md:mb-9 md:text-sm lg:text-base max-w-72 
+md:max-w-full '
+          >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation.

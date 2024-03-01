@@ -58,15 +58,10 @@ module.exports = {
       borderRadius: {
         '5xl': '4rem'
       },
-      gradientColorStopPositions: {
-        50: '50%'
-      },
       padding: {
         150: '9.375rem'
       },
-      screens: {
-        xlg: '1500px'
-      },
+    
       container: {
         center: true,
         padding: {

@@ -5,18 +5,18 @@ const FeedbackSection = () => {
   return (
     <div className='container pb-14 pt-7 md:pt-10 md:pb-40'>
       {' '}
-      <h1 className='mb-3 font-bold text-center font-poppins text- md:text-3xl  md:text-start  md:mb-5 md:leading-none'>
+      <h1 className='mb-3 font-bold text-center font-poppins text-sm md:text-3xl  md:text-start  md:mb-5 md:leading-none'>
         People's FeedBack about JobNow!
       </h1>{' '}
       <div className='flex flex-col text-center md:text-start md:grid md:grid-cols-3'>
         {' '}
         <div className=' flex flex-col items-center md:block md:pt-2 md:col-span-2'>
           {' '}
-          <p className='text-8 w-52 mb-5 font-poppins font-normal text-primary-text-color  md:mb-16 md:w-11/12 md:text-xl '>
+          <p className='text-8 max-w-52 mb-5 font-poppins font-normal text-primary-text-color  md:mb-16 md:max-w-3xl md:text-xl '>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
-          <p className='text-8 w-52  mb-[60px] md:text-[22px]  font-poppins font-semibold  md:mb-14  md:w-10/12  '>
+          <p className='text-8 max-w-52  mb-[60px] md:text-[22px]  font-poppins font-semibold  md:mb-14  md:max-w-3xl  '>
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation."

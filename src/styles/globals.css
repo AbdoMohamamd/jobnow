@@ -30,7 +30,6 @@
   background: linear-gradient(to right, #F2F2F2 0%, #F2F2F2 50%, #00CC99 50%, #00CC99 100%);
 }
 
-.custom-swiper {
-  width: auto !important;
+.footer-gradient {
+  background: linear-gradient(to bottom, #FBFBFB 0%, #FBFBFB 50%, #00CC99 50%, #00CC99 100%);
 }
-

@@ -41,7 +41,7 @@ const PopularJobSection = () => {
   ]
 
   return (
-    <div className='container'>
+    <div className='container pb-7 pt-8    md:pt-28 md:pb-24'>
       {' '}
       <div className=' flex flex-col items-center mx-auto '>
         <h1 className=' mb-3   font-bold text-sm md:text-3xl font-poppins md:mb-8 md:leading-tight md:text-wrap     '>

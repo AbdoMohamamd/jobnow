@@ -31,23 +31,23 @@ const ExplanationSection = () => {
   ]
 
   return (
-    <div className='container'>
-      <h1 className='mb-4 font-bold text-sm md:text-3xl font-poppins md:mb-10 md:leading-none'>
+    <div className='container pt-14 pb-14  md:pt-150 md:pb-150'>
+      <h1 className='mb-4 font-bold font-poppins text-sm md:text-3xl md:mb-10 md:leading-none'>
         How it Works
       </h1>{' '}
-      <div className='flex  flex-wrap md:flex-row md:justify-between  '>
+      <div className='flex flex-wrap md:flex-row md:justify-between  '>
         <div className='w-11/12 md:w-6/10 order-1  '>
           {' '}
-          <p className='text-8  mb-5 md:text-base    font-poppins font-normal text-primary-text-color  md:mb-14 '>
+          <p className='text-8 mb-5 font-poppins font-normal text-primary-text-color md:mb-14 md:text-base '>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation.
           </p>
         </div>
-        <div className='flex mb-8 md:m-0 justify-center md:justify-end  w-full  md:w-4/10    order-3 md:order-2 '>
+        <div className='flex mb-8 justify-center w-full order-3 md:justify-end md:m-0 md:w-4/10  md:order-2'>
           <MainButton text={'Learn More'} small={false} />
         </div>
-        <div className='flex mb-1     gap-x-4 gap-y-4 md:gap-x-8 md:gap-y-8  justify-center  flex-wrap   md:w-full  md:mb-32  order-2 md:order-3'>
+        <div className='flex mb-1 gap-x-4 gap-y-4 justify-center flex-wrap order-2 md:gap-x-8 md:gap-y-8 md:w-full  md:mb-32 md:order-3'>
           {cards.map((card, index) => (
             <Card
               key={index}
@@ -58,19 +58,15 @@ const ExplanationSection = () => {
           ))}
         </div>
       </div>
-      <div className='flex flex-col   md:flex-row items-center gap-x-16  '>
+      <div className='md:grid md:grid-cols-3 '>
         {' '}
-        <div className='mb-6 md:mb-0 w-72 h-52 rounded-lg md:h-370 md:w-504 bg-placeholder-grey md:rounded-xl   '>
-          <p className='text-transparent hidden md:block md:h-0 '>
-           lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
-          </p>
-        </div>
-        <div className='text-center md:text-start'>
+        <div className='mb-6  w-72 h-52 mx-auto rounded-lg md:h-370 md:w-11/12 bg-placeholder-grey md:rounded-xl  md:mx-0 md:col-span-1 md:mb-0'></div>
+        <div className='text-center md:text-start md:col-span-2   '>
           {' '}
-          <h1 className='mb-3 font-bold text-sm md:text-xl lg:text-3xl font-poppins md:mb-8 md:leading-tight md:text-wrap     '>
+          <h1 className='mb-3 font-bold font-poppins text-sm md:text-xl lg:text-3xl  md:mb-8 md:leading-tight '>
             We will help you to become an employee for your dream company
           </h1>
-          <p className='text-8  mb-5 md:text-sm lg:text-base    font-poppins font-normal text-primary-text-color  md:mb-9  md:text-wrap'>
+          <p className='text-8  mb-5 font-poppins font-normal text-primary-text-color  md:mb-9 md:text-sm lg:text-base '>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation.

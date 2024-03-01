@@ -48,7 +48,7 @@ const RecentJobsSection = () => {
 
   ]
   return (
-    <div className='container'>
+    <div className='container pb-7 pt-14     md:pt-40 md:pb-24 '>
       <div className='flex items-center flex-col'>
         {' '}
         <h1 className='mb-4 font-bold text-sm md:text-3xl font-poppins md:mb-10 md:leading-none'>

@@ -1,13 +1,8 @@
-import React, { useRef, useState } from 'react'
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react'
-
-// Import Swiper styles
 import 'swiper/css'
 import 'swiper/css/free-mode'
 import 'swiper/css/pagination'
 
-// import required modules
 import { FreeMode } from 'swiper/modules'
 
 const CustomSwiper = ({ cards }) => {
@@ -84,14 +79,13 @@ const CustomSwiper = ({ cards }) => {
       //     slidesPerView: 4.3
       //   }
       // }}
-
       slidesPerView={'auto'}
       freeMode={true}
       modules={[FreeMode]}
-      className='hover:cursor-pointer   '
+      className='hover:cursor-pointer'
     >
       {cards?.map((card, index) => (
-        <SwiperSlide key={index} className='custom-swiper   '>
+        <SwiperSlide key={index} className='!w-auto'>
           {card}
         </SwiperSlide>
       ))}

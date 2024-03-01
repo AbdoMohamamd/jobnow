@@ -19,7 +19,8 @@ module.exports = {
         'secondary-grey': '#F2F2F2',
         'primary-color': '#00CC99',
         'primary-text-color': '#8A8A8A',
-        'placeholder-grey': '#C4C4C4'
+        'placeholder-grey': '#C4C4C4',
+        'secondary-color': '#003A2C'
       },
       fontFamily: {
         poppins: ['var(--font-poppins)']
@@ -62,6 +63,13 @@ module.exports = {
       },
       padding: {
         150: '9.375rem'
+      },
+      screens: {
+        xlg: '1500px'
+      },
+      container: {
+        center: true,
+        padding: '5rem'
       }
     }
   },

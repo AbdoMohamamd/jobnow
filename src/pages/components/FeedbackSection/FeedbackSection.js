@@ -3,9 +3,9 @@ import RightArrow from '../Svg/RightArrow'
 import LeftArrow from '../Svg/LeftArrow'
 const FeedbackSection = () => {
   return (
-    <div className='container pb-7 pt-7 md:pt-10 md:pb-40'>
+    <div className='container pb-14 pt-7 md:pt-10 md:pb-40'>
       {' '}
-      <h1 className='mb-3 font-bold text-center font-poppins text-sm md:text-3xl  md:text-start  md:mb-5 md:leading-none'>
+      <h1 className='mb-3 font-bold text-center font-poppins text- md:text-3xl  md:text-start  md:mb-5 md:leading-none'>
         People's FeedBack about JobNow!
       </h1>{' '}
       <div className='flex flex-col text-center md:text-start md:grid md:grid-cols-3'>

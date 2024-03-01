@@ -32,12 +32,12 @@ export default function Home () {
       </section>
       <section className='  footer-gradient  '>
         <div className=' container   '>
-          <div className='    bg-secondary-color rounded-xl text-center pt-16 pb-14'>
+          <div className=' pt-3 pb-4   bg-secondary-color rounded-xl  text-center md:pt-16 md:pb-14'>
             {' '}
-            <h1 className='font-poppins font-semibold text-4xl text-white mb-8'>
+            <h1 className='font-poppins font-semibold text-xs mb-3 md:text-4xl text-white md:mb-8'>
               Register your CV now!
             </h1>
-            <p className='font-poppins font-normal text-xl text-[#AAAAAA] mb-8 w-6/12 mx-auto'>
+            <p className='font-poppins font-normal text-8 mb-2 md:text-xl text-[#AAAAAA] md:mb-8 w-6/12 mx-auto'>
               {' '}
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
